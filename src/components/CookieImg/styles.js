@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const Image = styled.img`
     height: 220px;
-    transition: ease-in-out;
+    width: 220px;
+    transition: ease-in-out 1s;
     cursor: pointer;
     &:hover{
         transform: scale(1.1);
